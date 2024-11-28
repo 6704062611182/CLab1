@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main(){
 	int a, b;
-	scanf("%d", &a);
-	scanf("%d", &b);
+	scanf("%d %d", &a, &b);
 	int sum;
 	if (a > b){
 		printf("a > b \n");
