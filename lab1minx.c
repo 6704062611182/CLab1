@@ -1,10 +1,16 @@
 #include <stdio.h>
 int main(){
-	int a = 2;
-	int b = 3;
+	int a, b;
+	scanf("%d", &a);
+	scanf("%d", &b);
+	int sum;
 	if (a > b){
-		printf("a > b")
+		printf("a > b \n");
+		sum = a - b;
+		printf("%d", sum);
 	}else{
-		printf("b > a")
+		printf("b > a \n");
+		sum = b - a;
+		printf("%d", sum);
 	}
 }
