@@ -4,7 +4,8 @@ int main(){
 	int b = 2;
 	if (a > b){
 		printf("a is greter than b");
-	}else{
+	}
+	if (a < b){
 		printf("b is greater than a");
 	}
 }
