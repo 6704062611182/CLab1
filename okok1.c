@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main(){
-	int a = 0;
-	int b = 2;
+	int a;
+	int b;
+	scanf("%d", &a);
+	scanf("%d", &b);
 	if (a > b){
 		printf("a is greter than b");
 	}
-	if (a < b){
+	else{
 		printf("b is greater than a");
 	}
 }
